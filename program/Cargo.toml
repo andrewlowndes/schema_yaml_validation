@@ -1,0 +1,18 @@
+[package]
+name = "example_program"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+serde = "1.0.160"
+serde_derive = "1.0.160"
+serde_yaml = "0.9.21"
+example_types = { path = "../types" }
+
+[build-dependencies]
+schemars = "0.8.12"
+serde = "1.0.160"
+serde_derive = "1.0.160"
+serde_json = "1.0.96"
+example_types = { path = "../types" }
